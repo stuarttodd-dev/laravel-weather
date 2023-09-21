@@ -13,16 +13,19 @@ To get started with the Laravel Weather Package, follow these steps:
    ```
 2. Publish the package configuration and views:
 ```
-php artisan vendor:publish --tag=ecce-laravel-weather-config
-php artisan vendor:publish --tag=ecce-laravel-weather-views
+php artisan vendor:publish --tag=laravel-weather-config
+php artisan vendor:publish --tag=laravel-weather-assets
+php artisan vendor:publish --tag=laravel-weather-views
 ```
 
 3. Configure your API key in the config/laravel-weather.php file.
+Visit - https://openweathermap.org/api
 ```
-php artisan vendor:publish --tag=ecce-laravel-weather-config
-php artisan vendor:publish --tag=ecce-laravel-weather-views
+return [
+    'api_key' => env('OPEN_WEATHER_API_KEY', ''),
+];
 ```
-4. Fetch data
+4. Fetch data option
 ```
 use Ecce\LaravelWeather\Facades\LaravelWeather;
 
