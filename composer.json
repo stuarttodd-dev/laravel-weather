@@ -1,7 +1,6 @@
 {
   "name": "ecce/laravel-weather",
   "description": "Laravel Weather Package",
-  "minimum-stability": "stable",
   "type": "library",
   "license": "MIT",
   "authors": [
