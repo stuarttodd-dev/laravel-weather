@@ -13,7 +13,7 @@ class WeatherController extends Controller
     {
         // Fetch weather data using the LaravelWeather facade
         $weatherData = new LaravelWeather();
-        $weatherData->getCurrentWeather();
+        $weatherData->getCurrentWeather('1');
 
         // You can customize the logic here to display weather information as needed
         return view('weather-forecast', ['weatherData' => $weatherData]);
