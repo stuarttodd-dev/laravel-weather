@@ -12,9 +12,9 @@ To get started with the Laravel Weather Package, follow these steps:
 ```
 
 2. Install the package via Composer:
-   ```bash
-   composer require ecce/laravel-weather
-   ```
+```bash
+composer require ecce/laravel-weather
+```
 3. Publish the package configuration and views:
 ```
 php artisan vendor:publish --tag=laravel-weather-config
