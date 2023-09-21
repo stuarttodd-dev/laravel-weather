@@ -12,7 +12,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.2.1",
-    "illuminate/support": "^8.0"
+    "illuminate/support": "^8.0",
+    "laravel/framework": "8.x-dev"
   },
   "autoload": {
     "psr-4": {
