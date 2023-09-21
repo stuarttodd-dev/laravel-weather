@@ -6,14 +6,12 @@ The Laravel Weather Package is a powerful tool for integrating weather forecast 
 
 To get started with the Laravel Weather Package, follow these steps:
 
-1. Install the package via Composer:
-Make sure you composer.json has
-
+1. Configure composer.json
 ```
 "minimum-stability": "dev",
 ```
-as the package itself is still under development
 
+2. Install the package via Composer:
    ```bash
    composer require ecce/laravel-weather
    ```
