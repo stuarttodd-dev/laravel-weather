@@ -22,14 +22,14 @@ php artisan vendor:publish --tag=laravel-weather-assets
 php artisan vendor:publish --tag=laravel-weather-views
 ```
 
-3. Configure your API key in the config/laravel-weather.php file.
+4. Configure your API key in the config/laravel-weather.php file.
 Visit - https://openweathermap.org/api
 ```
 return [
     'api_key' => env('OPEN_WEATHER_API_KEY', ''),
 ];
 ```
-4. Fetch data option
+5. Fetch data option
 ```
 use Ecce\LaravelWeather\Facades\LaravelWeather;
 
@@ -49,5 +49,5 @@ if (isset($weatherData['error'])) {
     // ...
 }
 ```
-5. Visit URL
+6. Visit URL
 Visit **/weather-forecast** within your Laravel app
