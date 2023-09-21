@@ -11,7 +11,7 @@ class WeatherController extends Controller
 {
     public function index(Request $request)
     {
-        return view('weather-forecast');
+        return view('ecce-laravel-weather::weather-forecast');
     }
 
     public function fetch(Request $request)
@@ -30,7 +30,7 @@ class WeatherController extends Controller
             return back()->with('error', 'Invalid IP address.');
         }
 
-        return view('weather.index', ['weatherData' => $weatherData]);
+        return view('ecce-laravel-weather::weather-forecast', ['weatherData' => $weatherData]);
     }
 
 }
