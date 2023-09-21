@@ -27,7 +27,8 @@
     "laravel": {
       "providers": [
         "Ecce\\LaravelWeather\\LaravelWeatherServiceProvider"
-      ]
+      ],
+      "routes": "routes/web.php"
     }
   }
 }
