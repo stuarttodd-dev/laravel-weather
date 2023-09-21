@@ -12,7 +12,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.2.1",
-    "illuminate/support": "^8.0"
+    "illuminate/support": "^8.0",
+    "stuarttodd-dev/weather-forecast-app": "dev-main"
   },
   "autoload": {
     "psr-4": {

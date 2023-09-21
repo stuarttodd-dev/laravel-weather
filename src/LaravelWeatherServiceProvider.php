@@ -27,7 +27,7 @@ class LaravelWeatherServiceProvider extends ServiceProvider
     {
         // Publish configuration file
         $this->publishes([
-            __DIR__ . '/config/weather.php' => config_path('weather.php'),
+            __DIR__ . '/config/laravel-weather.php' => config_path('laravel-weather.php'),
         ], 'config');
 
         // Register routes
