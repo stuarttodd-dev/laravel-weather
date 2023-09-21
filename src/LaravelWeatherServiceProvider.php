@@ -33,7 +33,13 @@ class LaravelWeatherServiceProvider extends ServiceProvider
         // Register routes
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
 
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__.'/../views' => resource_path('views/vendor/ecce-laravel-weather'),
+            ], 'your-package-namespace-views');
+        }
+
         // Register views
-        $this->loadViewsFrom(__DIR__ . '/views', 'laravel-weather');
+        $this->loadViewsFrom(__DIR__ . '/views', 'ecce-laravel-weather');
     }
 }
