@@ -28,7 +28,7 @@ class LaravelWeatherServiceProvider extends ServiceProvider
         // Publish configuration file
         $this->publishes([
             __DIR__ . '/config/laravel-weather.php' => config_path('laravel-weather.php'),
-        ], 'config');
+        ], 'laravel-weather-config');
 
         // Register routes
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
@@ -36,10 +36,10 @@ class LaravelWeatherServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor/ecce-laravel-weather'),
-        ], 'views');
+        ], 'laravel-weather-views');
 
         $this->publishes([
             __DIR__.'/public/weather-icons' => public_path('vendor/ecce-laravel-weather'),
-        ], 'public');
+        ], 'laravel-weather-assets');
     }
 }
