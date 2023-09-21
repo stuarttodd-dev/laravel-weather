@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b49e380161f74ebeccd15d4be63784c",
+    "content-hash": "1bd11fbb7bd45c04774d27257bb5a6b1",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -3380,7 +3380,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "stuarttodd-dev/weather-forecast-app": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

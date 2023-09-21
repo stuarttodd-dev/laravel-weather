@@ -3,7 +3,7 @@
         'name' => 'ecce/laravel-weather',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b826a3847395267478c2f0cf674105eb78a2ab82',
+        'reference' => 'a1d0ff836d4668413619ead91c498a45b3562aad',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'ecce/laravel-weather' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b826a3847395267478c2f0cf674105eb78a2ab82',
+            'reference' => 'a1d0ff836d4668413619ead91c498a45b3562aad',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
