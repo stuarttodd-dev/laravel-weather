@@ -96,7 +96,7 @@ class DataCollectorTranslator implements TranslatorInterface, TranslatorBagInter
     }
 
     /**
-     * @return mixed
+     * Passes through all unknown calls onto the translator object.
      */
     public function __call(string $method, array $args)
     {
