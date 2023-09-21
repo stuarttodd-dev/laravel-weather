@@ -36,7 +36,7 @@ class LaravelWeatherServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor/ecce-laravel-weather'),
-        ], 'ecce-laravel-weather-views');
+        ], 'views');
 
         $this->publishes([
             __DIR__.'/public/weather-icons' => public_path('vendor/ecce-laravel-weather'),
