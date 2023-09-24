@@ -36,18 +36,8 @@ use Ecce\LaravelWeather\Facades\LaravelWeather;
 // Example: Fetch weather data for an IP address
 $ipAddress = '123.45.67.89';
 $weatherData = LaravelWeather::getDailyForecast($ipAddress);
-
-// Check for errors
-if (isset($weatherData['error'])) {
-    // Handle the error
-    $error = $weatherData['error'];
-    // ...
-} else {
-    // Display weather information
-    $geoLocation = $weatherData['geoLocation'];
-    $forecast = $weatherData['forecast'];
-    // ...
-}
+$geoLocation = $weatherData['geoLocation'];
+$forecast = $weatherData['forecast'];
 ```
 6. Visit URL
 Visit **/weather-forecasts** within your Laravel app
