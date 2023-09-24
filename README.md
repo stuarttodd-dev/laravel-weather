@@ -50,4 +50,4 @@ if (isset($weatherData['error'])) {
 }
 ```
 6. Visit URL
-Visit **/weather-forecast** within your Laravel app
+Visit **/weather-forecasts** within your Laravel app
